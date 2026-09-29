@@ -13,6 +13,6 @@ body { font-family: system-ui, sans-serif; background: #eef7fb; margin: 0; color
 
 .btn { padding: 0.6rem 1rem; border-radius: 10px; border: none; cursor: pointer; font-size: 1rem; }
 /* BUG (issue #8): primary button uses a grey placeholder instead of var(--brand). */
-.btn-primary { background: #999999; color: #fff; }
+.btn-primary { background: var(--brand); color: #fff; }
 
 footer { margin-top: 1.5rem; color: #7d97a3; font-size: 0.85rem; }
