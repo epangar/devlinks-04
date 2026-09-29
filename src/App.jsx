@@ -3,8 +3,6 @@ import Header from './components/Header.jsx'
 import Current from './components/Current.jsx'
 import Forecast from './components/Forecast.jsx'
 import Footer from './components/Footer.jsx'
-// BUG (issue #11): unused import left in the file
-import { useRef } from 'react'
 
 // Temperatures are stored in Celsius.
 const weather = {
